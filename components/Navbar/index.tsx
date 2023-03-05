@@ -1,5 +1,5 @@
 import Image from "next/image";
-import petrichorLogo from '../../public/images/petrichor-logo.png'
+import petrichorLogo from '../../public/images/petrichor-logo.svg'
 import { SignInButton } from "../SignInButton";
 
 export function Navbar() {

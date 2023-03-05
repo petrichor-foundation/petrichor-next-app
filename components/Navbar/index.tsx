@@ -4,19 +4,19 @@ import { SignInButton } from "../SignInButton";
 
 export function Navbar() {
   return(
-    <div className="bg-white-bg top-[30px] left-[76px] right-[76px] h-[53px] fixed z-20 p-4 shadow-emphasis rounded-2xl flex justify-between items-center">
+    <header className="bg-white-bg top-[30px] left-[76px] right-[76px] h-[53px] fixed z-20 p-[10px] shadow-emphasis rounded-2xl flex justify-between items-center">
       <div>
         <Image src={petrichorLogo} alt="Petrichor logo" />
       </div>
       <div className="flex items-center justify-center gap-12">
         <ul className="flex gap-12 text-sm font-normal">
-          <li>Sobre nós</li>
-          <li>Ranking</li>
-          <li>Comunidade</li>
-          <li>Empresa</li>
+          <li className="cursor-pointer">Sobre nós</li>
+          <li className="cursor-pointer">Ranking</li>
+          <li className="cursor-pointer">Comunidade</li>
+          <li className="cursor-pointer">Empresa</li>
         </ul>
         <SignInButton title="Login com Github" hasIcon />
       </div>
-    </div>
+    </header>
   )
 }

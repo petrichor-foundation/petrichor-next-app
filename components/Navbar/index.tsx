@@ -4,7 +4,7 @@ import { SignInButton } from "../SignInButton";
 
 export function Navbar() {
   return(
-    <header className="bg-white-bg top-[30px] left-[76px] right-[76px] h-[53px] fixed z-20 p-[10px] shadow-emphasis rounded-2xl flex justify-between items-center">
+    <header className="backdrop-blur-md bg-white-bg-glass top-[30px] left-[76px] right-[76px] h-[53px] fixed z-20 p-[10px] shadow-emphasis rounded-2xl flex justify-between items-center">
       <div>
         <Image src={petrichorLogo} alt="Petrichor logo" />
       </div>

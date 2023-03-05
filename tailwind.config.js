@@ -15,6 +15,7 @@ module.exports = {
       "white-light": "#FFF",
       "white": "#F5F5F5",
       "white-bg": "#F8F8F9",
+      "white-bg-glass": "#F8F8F970",
 
       "shadow": "#474D5305",
 

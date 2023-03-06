@@ -34,13 +34,13 @@ export default function Home() {
             <p className="text-center text-base font-normal text-gray">Recompensando os desenvolvedores brasileiros mais <br /> talentosos e seus projetos de destaque.</p>
             <SendProjectButton title="Envie seu projeto" />
             <div className="mt-6 flex items-center justify-center gap-4" >
-              <SocialMediaButtons link="#" >
+              <SocialMediaButtons link="https://github.com/petrichor-foundation" >
                 <FaGithub className="text-blue text-base" />
               </SocialMediaButtons>
-              <SocialMediaButtons link="#" >
+              <SocialMediaButtons link="https://twitter.com/PetrichorFou" >
                 <FaTwitter className="text-blue text-base" />
               </SocialMediaButtons>
-              <SocialMediaButtons link="#" >
+              <SocialMediaButtons link="https://www.linkedin.com/company/petrichor-foundation/" >
                 <FaLinkedin className="text-blue text-base" />
               </SocialMediaButtons>
             </div>

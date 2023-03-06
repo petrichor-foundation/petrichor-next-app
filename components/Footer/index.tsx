@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
-import petrichorLogo from '../../public/images/petrichor-logo.png'
+import petrichorLogo from '../../public/images/petrichor-logo.svg'
 import petrichorLogoName from '../../public/images/petrichor-logo-name.svg'
 
 export function Footer() {
